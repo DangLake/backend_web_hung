@@ -5,7 +5,7 @@ FROM eclipse-temurin:21-jdk
 WORKDIR /app
 
 # Copy file JAR vào container
-COPY target/*.jar app.jar
+COPY backend_spring/target/*.jar app.jar
 
 # Chạy ứng dụng Spring Boot
 CMD ["java", "-jar", "app.jar"]
