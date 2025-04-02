@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y maven
 WORKDIR /app
 
 # Sao chép mã nguồn vào container từ thư mục backend_spring
-COPY backend_spring/ .
+COPY ./backend_spring/ .
 
 # Cài đặt các phụ thuộc của ứng dụng và build ứng dụng
 RUN mvn clean package -DskipTests

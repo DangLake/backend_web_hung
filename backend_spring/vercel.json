@@ -1,0 +1,19 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "pom.xml",
+        "use": "@vercel/maven",
+        "config": {
+          "version": "3.x"
+        }
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/target/backend_spring-0.0.1-SNAPSHOT.jar"
+      }
+    ]
+  }
+  
