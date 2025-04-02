@@ -5,7 +5,7 @@ FROM eclipse-temurin:21-jdk
 WORKDIR /app
 
 # Sao chép file .jar vào container
-COPY backend_spring/target/backend_spring-0.0.1-SNAPSHOT.jar app.jar
+COPY target/backend_spring-0.0.1-SNAPSHOT.jar app.jar
 
 
 # Chạy ứng dụng Spring Boot
