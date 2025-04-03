@@ -9,9 +9,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/db_banh?useUnicode=true&characterEncoding=UTF-8&nullCatalogMeansCurrent=true&nullNamePatternMatchesAll=true
-    username: root
-    password: ""
+    url: jdbc:mysql://103.106.105.141:3306/db_banh?useUnicode=true&characterEncoding=UTF-8&nullCatalogMeansCurrent=true&nullNamePatternMatchesAll=true
+    username: mint
+    password: Truong456%
     driver-class-name: com.mysql.cj.jdbc.Driver
   http:
     encoding:
