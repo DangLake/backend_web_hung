@@ -13,7 +13,7 @@ import stu.edu.vn.backend_spring.service.StatisticsService;
 
 @RestController
 @RequestMapping("/statistics")
-@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:5174"})
+@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:5174","https://frontend-self-zeta-26.vercel.app/"})
 public class StatisticsController {
     @Autowired
     private StatisticsService statisticsService;

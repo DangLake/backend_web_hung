@@ -21,7 +21,7 @@ import stu.edu.vn.backend_spring.entity.CategoriesEntity;
 
 @RestController
 @RequestMapping("/categories")
-@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:5174"})
+@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:5174","https://frontend-self-zeta-26.vercel.app/"})
 public class CategoryController {
     @Autowired
     private CategoryService categoryService;
